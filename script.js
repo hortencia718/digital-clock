@@ -1,3 +1,4 @@
+// create an event listner to load the calculated time function
 window.addEventListener('load', calculateTime);
 
 function calculateTime(){
@@ -15,7 +16,7 @@ function calculateTime(){
 
      hour = hour < 10 ? '0' + hour : hour;
      minute = minute < 10 ? '0'+ mintue : minute;
-
+    // get element by id the function currentTime 
      document.getElementById('currentTime').innerHTML = dayNames[dayNumber] + " | " + hour +" | " + minute + " | " + ampm;
     setTimeout(calculateTime, 500);
 }
