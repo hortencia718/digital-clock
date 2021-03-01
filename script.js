@@ -9,7 +9,7 @@ function calculateTime(){
     let minute = date.getMinutes();
     // if am/pm is greater than or equal to 12? then am/pm
     let ampm =hour >=12 ? 'PM' : 'AM';
-    let dayNames = ["sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+    let dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
 
      hour = hour % 12;
      hour = hour ? hour : '12';
