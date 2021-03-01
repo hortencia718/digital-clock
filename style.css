@@ -1,0 +1,22 @@
+ html, body {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height: 100%;
+    font-family: 'Courgette', cursive;;
+    background-color: black;
+    
+}
+
+.digitalClock {
+    position: relative;
+    box-shadow: 4px 13px 30px rgb(220, 244, 6), 4px -13px 40px rgb(255, 14, 223);
+    border-radius: 2px;
+}
+
+.digitalClock h1 {
+display:inline;
+color: rgba(0,255,255);
+font-size: 80px;
+padding: 14px;
+}
